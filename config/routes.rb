@@ -5,4 +5,18 @@ Rails.application.routes.draw do
   end
 end
 
-# watch video part where he ensures review references restaurant
+  # watch video part where he ensures review references restaurant
+
+  # resources :restaurants do
+  #   collection do
+  #     get :index
+  #     get :create
+  #     get :new
+  #     get :show
+  #   end
+  #   member do
+  #     get :new
+  #     get :create
+  #   end
+  # end
+# end

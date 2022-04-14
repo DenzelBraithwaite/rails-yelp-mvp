@@ -1,0 +1,9 @@
+<%# List all restaurants %>
+<h1>Restaurants</h1>
+<h2><%= link_to 'Make a new resto?', new_restaurant_path %></h2>
+<br>
+<ul style="list-style: none;">
+<% @restaurants.each do |resto| %>
+<li><h3><%= link_to resto.name, restaurant_path(resto) %> - (<%= resto.category %>)</h3></li>
+<% end %>
+</ul>
